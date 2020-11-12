@@ -1,0 +1,45 @@
+package com.hotelRoom_Cost.model;
+
+public class DeluxeRoom extends HotelRoom{
+	
+	protected Integer ratePerSqFeet;
+
+	public DeluxeRoom(Integer ratePerSqFeet) {
+		super();
+		this.ratePerSqFeet = 10;
+	}
+
+	public DeluxeRoom() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public DeluxeRoom(String hotelName, Integer numberOfSqFeet, Boolean hasTV, Boolean hasWifi) {
+		super(hotelName, numberOfSqFeet, hasTV, hasWifi);
+		// TODO Auto-generated constructor stub
+	}
+	
+	// returns (ratePerSqFeet + 2) if wifi is present, else returns ratePerSqFeet.
+	public Integer getRatePerSqFeet(Boolean hasWifi) {
+		if(hasWifi) {
+			return ratePerSqFeet + 2;
+		}
+		else {
+			return ratePerSqFeet;
+		}
+	}
+
+	public Integer getRatePerSqFeet() {
+		return ratePerSqFeet;
+	}
+
+	public void setRatePerSqFeet(Integer ratePerSqFeet) {
+		this.ratePerSqFeet = ratePerSqFeet;
+	}
+
+	@Override
+	public String toString() {
+		return "DeluxeRoom [ratePerSqFeet=" + ratePerSqFeet + "]";
+	}
+
+}

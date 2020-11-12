@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.bookstore.model.Reviview&apos; to &apos;Review&apos;&#x0A;- Original project: &apos;Book_Store_AkashKhandelia&apos;&#x0A;- Original element: &apos;com.bookstore.model.Reviview&apos;&#x0A;- Renamed element: &apos;com.bookstore.model.Review&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Reviview&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.bookstore.model{Reviview.java[Reviview" matchStrategy="1" name="Review" qualified="false" references="true" similarDeclarations="false" stamp="1603511206214" textual="false" version="1.0"/>
+</session>
